@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="As a frontend developer, I bring creativity, functionality, and user-centric design to every project. With expertise in HTML, CSS, JavaScript, and responsive design, my portfolio showcases my ability to deliver engaging and accessible digital experiences. From e-commerce sites to mobile apps, let me help you bring your vision to life.">
+    <meta name="author" content="@RUSTAM_KHAN">
+    <link rel="icons" href="./images/icon.png">
+
+    <!------------------ css link ------------------>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+
+    <!------------------ icons link ------------------>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>"Showcasing the Art of Frontend Development: A Portfolio of Innovative Digital Experiences" || Web
+        Designer......</title>
+
+    
+
+</head>
+
+<body id="body">
+
+
+
+    <!-- ==================== Header section design (logo and navbar) ==================== -->
+
+    <header class="header">
+
+        <h1 class="logo">PORT<span>FOLIO</span></h1>
+
+        <div class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="cross-icon"></i>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-list" onclick="activeClass(event)">
+                <li class="navbar-link"><a id="navHome" href="#home">Home</a></li>
+                <li class="navbar-link"><a id="navAbout" href="#about">About Me</a></li>
+                <li class="navbar-link"><a id="navService" href="#services">Services</a></li>
+                <li class="navbar-link"><a id="navContact" href="#contact">Contact Us</a></li>
+                <li class="navbar-link">
+                    <a id="changeColor" style="color:white" onclick="changeColor()" href="#home">
+                        <i id="symbol" class='bx bx-sun'></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- ==================== Home section design ==================== -->
+
+    <section id="home">
+        <div class="home-content">
+            <h3>Hello, This is</h3>
+            <h1>Rustam Khan</h1>
+            <h3>And I'm a <span class="multipleText"></span></h3>
+            <p>As a frontend developer, my mission is to enable people and companies to connect with their audiences
+                through engaging, interactive, and user-friendly digital interfaces that promote growth.</p>
+
+            <div class="social-media">
+                <a href="https://twitter.com/KH4N2809" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/kh4n_028/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/kh4n28/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:kh4n2809@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+            <div class="button">
+                <a href="https://drive.google.com/file/d/1jt06PONec_7IFlMJJrqNDQgC-kQaCebB/view" class="btn"
+                    target="_blank">Download CV <i class='bx bxs-download'
+                        style="color: black; font-size: 1.3rem;"></i></a>
+
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/home-img.png" alt="">
+        </div>
+    </section>
+
+
+
+    <!-- ==================== About section design ==================== -->
+
+    <section id="about">
+        <div class="about-img">
+            <img src="./images/about-img.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me!</span></h2>
+            <h3>frontend Developer.</h3>
+            <p>Hi, I'm Rustam, a frontend developer with 1 years of experience creating beautiful, responsive, and
+                user-friendly websites and web applications. I specialize in HTML, CSS, JavaScript, and have a passion
+                for creating digital experiences that delight users and drive business results.</p>
+            <p> As a frontend developer, I believe that good design is more than just aesthetics - it's about creating
+                interfaces that are intuitive, accessible, and enjoyable to use. I strive to create websites and
+                applications that are both visually appealing and highly functional, using the latest techniques and
+                best practices in the industry.</p>
+            <a href="#contact" class="btn">Hire Me!
+
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ==================== Section section design ==================== -->
+
+    <section id="services">
+        <h2 class="heading">Our <span>Services!</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Creating and developing user-friendly, aesthetically pleasing, and intuitive websites with an
+                    emphasis on delivering a great user experience. These services could include responsive design,
+                    content generation, search engine optimisation (SEO), search engine marketing (SEM), website
+                    management, and support.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h3>Web Analytic</h3>
+                <p>The collection, measurement, and analysis of website data to improve website performance, user
+                    experience, and business outcomes. These services may include tracking website traffic, user
+                    behavior, conversion rates, and other metrics to inform decision-making and improve website
+                    effectiveness.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Digital Marketing</h3>
+                <p>It entails using a variety of online platforms and channels, such as social media marketing, search
+                    engine optimisation (SEO), email marketing, and pay-per-click (PPC) advertising, to promote a
+                    company or product.
+                    Businesses may develop their brand and revenue in the digital age by using digital marketing
+                    services to boost their online exposure, attract a wider audience, produce more leads, and increase
+                    sales.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ==================== Contact section design ==================== -->
+
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Enter  E-Mail">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="4" placeholder="Your Message"></textarea>
+            
+                <a href="#home" target="_blank" class="btn" onclick="openPopup()">Submit</a>
+        </form>
+    </section>
+
+
+
+    <!-- ==================== Modal section design ==================== -->
+
+    <!-- <div class="modalContainer">
+        <div class="popup" id="popup">
+            <img src="./images/green tick.png">
+            <h4>Your details has been succesfully submitted. <br> We'll reach you soon.</h4>
+            <button class="popupBtn"><a href="#home" onclick="closePopup()">Hakuna matata</a></button>
+        </div>
+    </div> -->
+
+
+    <!-- ==================== Footer section design ==================== -->
+
+    <footer>
+        <p class="footer-text"> Copyright &copy; 2023 by Rustam | All Rights Reserved. </p>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <!--------- ScrollReveal link ------------>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--------- Typed JS link ------------>
+
+    <script src="./JavaScript/script2.js"></script>
+
+    <!--------- JavaScript link ------------>
+
+    <script src="./JavaScript/script.js"></script>
+
+
+</body>
+
+</html>
